@@ -19,8 +19,6 @@ yarn run clean # 清理 demo & lib 文件夹
 
 ## Description
 1. 设置全局模式下导出变量名称
-Set webpack.config.js `libraryName` as Global name.
-
 设置 webpack.config.js 文件里 `libraryName` 作为全局模式下变量名称。
 
 2. 设置插件依赖
