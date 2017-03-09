@@ -2,11 +2,11 @@ var $ = require('jquery')
 
 var ES6Base = {
   run: () => {
-    alert('hello')
-    $('h1').text('success!')
+    console.log('hello')
+    $('p').text('jQuer 调用成功！')
   }
 }
 
-console.log('hhhh')
+console.log($)
 
-export { ES6Base }
+module.exports = ES6Base
